@@ -16,7 +16,7 @@ public class ChatClearCommand implements CommandExecutor {
                         player.sendMessage("");
                     }
                 }
-                player.sendMessage("§7Der Chat wurde von §b" + sender.getName() + " §7geleert.");
+                player.sendMessage("§7Der Chat wurde von §e" + sender.getName() + " §7geleert.");
             }
             sender.sendMessage("§7Der Caht wurde erfolgreich geleert.");
         } else {
