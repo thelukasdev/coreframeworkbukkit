@@ -42,7 +42,7 @@ public class GameModeCommand implements CommandExecutor {
                     if (target != null) {
                         target.setGameMode(mode);
                         target.sendMessage("§7Dein GameMode wurde auf §e" + mode.toString() + " §7gesetzt.");
-                        sender.sendMessage("§7Du hast den GameMode von §b" + target.getName() + "§7 auf §b" + mode.toString() + " §7gesetzt.");
+                        sender.sendMessage("§7Du hast den GameMode von §e" + target.getName() + "§7 auf §e" + mode.toString() + " §7gesetzt.");
                     } else {
                         sender.sendMessage("§7Der Spieler §e" + args[1] + " §7ist nicht online.");
                     }
@@ -53,7 +53,7 @@ public class GameModeCommand implements CommandExecutor {
                 if (sender.hasPermission(permission)) {
                     Player player = (Player) sender;
                     player.setGameMode(mode);
-                    player.sendMessage("§7Dein GameMode wurde auf §b" + mode.toString() + " §7gesetzt.");
+                    player.sendMessage("§7Dein GameMode wurde auf §e" + mode.toString() + " §7gesetzt.");
                 } else {
                     sender.sendMessage(main.NO_PERMISSION);
                 }
