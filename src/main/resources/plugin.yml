@@ -1,0 +1,24 @@
+name: coreframeworkbukkit
+version: '${project.version}'
+main: de.lukaspellny.coreframeworkbukkit.Coreframeworkbukkit
+api-version: '1.21'
+commands:
+  broadcast:
+    aliases: [bc]
+  chatclear:
+    aliases: [cac, cc]
+  day:
+    aliases: [tag]
+  fly:
+  gamemode:
+    aliases: [gm]
+  gift:
+    aliases: [geschenk]
+  heal:
+  kill:
+  spectate:
+  teamchat:
+    aliases: [tc, team]
+  workbench:
+    aliases: [werkbank, wb]
+  
